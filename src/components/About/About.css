@@ -1,0 +1,114 @@
+.about-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-title {
+  font-size: max(2vw,24px);
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-subtitle {
+  font-size: 18px;
+  color: #808080;
+}
+
+.about-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #00000015;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+}
+
+.about-card-title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.about-card-text {
+  margin-top: 10px;
+  color: #676767;
+  font-size: 12px;
+}
+
+.about-icon {
+  font-size: 90px;
+  color: #4caf50;
+}
+
+.nutrition-facts, .campaign-objectives {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.nutrition-facts ul, .campaign-objectives ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nutrition-facts li, .campaign-objectives li {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #676767;
+}
+
+.nutrition-facts li strong, .campaign-objectives li strong {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .about-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-card {
+    width: 105%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
