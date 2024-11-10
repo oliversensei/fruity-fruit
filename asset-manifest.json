@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fruity-fruit/static/css/main.9cb32919.css",
+    "main.js": "/fruity-fruit/static/js/main.6aee471b.js",
+    "static/media/Poster_ads_4.png": "/fruity-fruit/static/media/Poster_ads_4.86a4d962abc580880f4b.png",
+    "static/media/Poster_ads_3.png": "/fruity-fruit/static/media/Poster_ads_3.2b54aa7c0b38cedc8182.png",
+    "static/media/FRUITY-FRUIT.jpg": "/fruity-fruit/static/media/FRUITY-FRUIT.0a7a0b3884d373a39283.jpg",
+    "index.html": "/fruity-fruit/index.html",
+    "main.9cb32919.css.map": "/fruity-fruit/static/css/main.9cb32919.css.map",
+    "main.6aee471b.js.map": "/fruity-fruit/static/js/main.6aee471b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb32919.css",
+    "static/js/main.6aee471b.js"
+  ]
+}
