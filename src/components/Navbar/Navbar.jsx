@@ -4,6 +4,7 @@ import { assets } from '../../assets/frontend_assets/assets';
 import { Link } from 'react-router-dom';
 import { StoreContext } from '../../context/StoreContext';
 import { sampleData } from './NavbarData'; 
+import logo from '../../assets/frontend_assets/logo-hci2-removebg-preview.png'
 
 const SearchModal = ({ showModal, setShowModal, searchQuery, setSearchQuery }) => {
     if (!showModal) return null;
@@ -55,7 +56,7 @@ const Navbar = ({ setShowLogin }) => {
 
   return (
     <div className="navbar">
-      <Link to='/'><h2>FRUITY FRUIT.</h2></Link>
+      <Link to='https://fruity-fruit.vercel.app/'><img className='logo' src={logo} alt="" /></Link>
       <ul className="navbar-menu">
         <Link to='/' onClick={() => setMenu('home')} className={menu === 'home' ? 'active' : ''}>Home</Link>
         <a href='#explore-menu' onClick={() => setMenu('menu')} className={menu === 'menu' ? 'active' : ''}>Menu</a>
