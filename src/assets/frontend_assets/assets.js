@@ -48,30 +48,6 @@ export const menu_list = [
     {
         menu_name: "Watermelon",
         menu_image: 'https://img.freepik.com/premium-vector/watermelon-vector-watermelon-with-red-flesh-is-halved-isolate_68708-673.jpg?w=2000'
-    },
-    {
-        menu_name: "Lemonade",
-        menu_image: 'https://icons.veryicon.com/png/o/food--drinks/fresh-1/lemon-29.png'
-    },
-    {
-        menu_name: "Watermelon",
-        menu_image: 'https://img.freepik.com/premium-vector/watermelon-vector-watermelon-with-red-flesh-is-halved-isolate_68708-673.jpg?w=2000'
-    },
-    {
-        menu_name: "Lemonade",
-        menu_image: 'https://icons.veryicon.com/png/o/food--drinks/fresh-1/lemon-29.png'
-    },
-    {
-        menu_name: "Watermelon",
-        menu_image: 'https://img.freepik.com/premium-vector/watermelon-vector-watermelon-with-red-flesh-is-halved-isolate_68708-673.jpg?w=2000'
-    },
-    {
-        menu_name: "Lemonade",
-        menu_image: 'https://icons.veryicon.com/png/o/food--drinks/fresh-1/lemon-29.png'
-    },
-    {
-        menu_name: "Watermelon",
-        menu_image: 'https://img.freepik.com/premium-vector/watermelon-vector-watermelon-with-red-flesh-is-halved-isolate_68708-673.jpg?w=2000'
     }]
 
 export const food_list = [
@@ -79,7 +55,7 @@ export const food_list = [
         _id: "1",
         name: "Lemonade",
         image: food_1,
-        price: 29,
+        price: 30,
         description: `A sour, yellow fruit often used for juicing, flavoring, or as garnish in drinks and food.`,
         category: "Lemonade"
     },
@@ -87,24 +63,8 @@ export const food_list = [
         _id: "2",
         name: "Watermelon",
         image: food_2,
-        price: 28,
+        price: 30,
         description: `A sweet, refreshing fruit with high water content, perfect for hydration during hot days.`,
         category: "Watermelon"
-    }, 
-    {
-        _id: "3",
-        name: "Lemonade (2)",
-        image: food_3,
-        price: 29,
-        description: `A sour, yellow fruit often used for juicing, flavoring, or as garnish in drinks and food.`,
-        category: "Lemonade (2)"
-    }, 
-    {
-        _id: "4",
-        name: "Watermelon (2)",
-        image: food_4,
-        price: 28,
-        description: `A sweet, refreshing fruit with high water content, perfect for hydration during hot days.`,
-        category: "Watermelon (2)"
     }, 
 ]
