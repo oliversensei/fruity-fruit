@@ -6,8 +6,8 @@ const ExploreMenu = ({category, setCategory}) => {
 
   return (
     <div className='explore-menu' id='explore-menu'>
-        <h1>Explore our fruit</h1>
-        <p className='explore-menu-text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis rem facere dicta deserunt eaque quo eos magnam tenetur possimus! Deleniti?</p>
+        <h1>Explore Fruity Fruit Juice Flavors</h1>
+        <p className='explore-menu-text'>Enjoy the refreshing taste of our signature flavors: Watermelon and Lemonade. Each juice is crafted to deliver a burst of natural flavor and hydration, perfect for a healthy boost anytime!</p>
         <div className='explore-menu-list'>
             {menu_list.map((item, index)=> {
                 return (
