@@ -22,12 +22,15 @@
 }
 .explore-menu-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
+    margin: 0 auto;
     text-align: center;
     margin: 20px 0px;
     overflow-x: scroll;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 .explore-menu-list::-webkit-scrollbar {
     display: none;
