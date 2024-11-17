@@ -2,8 +2,8 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import search_icon from './search_icon.png'
 
-import food_1 from './Poster_ads_3.png'
-import food_2 from './Poster_ads_4.png'
+import food_1 from './b1-lemonade.png'
+import food_2 from './bg-watermelon.png'
 import food_3 from './Poster_ads_3.png'
 import food_4 from './Poster_ads_4.png'
 
