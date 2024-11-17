@@ -56,7 +56,7 @@ const Navbar = ({ setShowLogin }) => {
 
   return (
     <div className="navbar">
-      <Link to='https://fruity-fruit.vercel.app/'><img className='logo' src={logo} alt="" /></Link>
+      <Link to='https://fruity-fruit.vercel.app/'><h2>FRUITY FRUIT.</h2></Link>
       <ul className="navbar-menu">
         <Link to='/' onClick={() => setMenu('home')} className={menu === 'home' ? 'active' : ''}>Home</Link>
         <a href='#explore-menu' onClick={() => setMenu('menu')} className={menu === 'menu' ? 'active' : ''}>Menu</a>
