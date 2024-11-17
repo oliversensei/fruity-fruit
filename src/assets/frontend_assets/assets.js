@@ -67,4 +67,20 @@ export const food_list = [
         description: `A sweet, refreshing fruit with high water content, perfect for hydration during hot days.`,
         category: "Watermelon"
     }, 
+    {
+        _id: "3",
+        name: "Lemonade",
+        image: food_1,
+        price: 30,
+        description: `A sour, yellow fruit often used for juicing, flavoring, or as garnish in drinks and food.`,
+        category: "Lemonade"
+    },
+    {
+        _id: "4",
+        name: "Watermelon",
+        image: food_2,
+        price: 30,
+        description: `A sweet, refreshing fruit with high water content, perfect for hydration during hot days.`,
+        category: "Watermelon"
+    }, 
 ]
