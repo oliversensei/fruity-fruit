@@ -57,6 +57,8 @@ const Cart = () => {
         <div className='promo-countdown'>
           <span>{countdown}</span>
         </div>
+        <p className='promo-text'>Promo: Buy 2 for only <span>₱55</span></p> {/* Added span for the price */}
+
       </div>
 
       <div className='cart-items'>
