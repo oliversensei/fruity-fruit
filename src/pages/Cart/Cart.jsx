@@ -12,8 +12,8 @@ const Cart = () => {
   const [countdown, setCountdown] = useState('');
 
   useEffect(() => {
-    // Target date for the countdown (November 25)
-    const targetDate = new Date('November 25, 2024 00:00:00').getTime();
+    // Target date for the countdown (December 2)
+    const targetDate = new Date('December 2, 2024 00:00:00').getTime();
 
     // Function to update the countdown
     const updateCountdown = () => {
@@ -30,9 +30,12 @@ const Cart = () => {
       setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
 
       // If countdown is over, display "Promo Started"
-      if (distance < 0) {
+      if (distance < 0 && distance > - (1000 * 60 * 60 * 24)) {
         setCountdown('Promo Started!');
+      } else if (distance <= -(1000 * 60 * 60 * 24)) {
+        setCountdown('Promo Ended!');
       }
+      
     };
 
     // Update the countdown every second
